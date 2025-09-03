@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mulkooo</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Mulkooo</description>
+    <title>Themes on Mulkooo</title>
+    <link>http://localhost:1313/categories/themes/</link>
+    <description>Recent content in Themes on Mulkooo</description>
     <image>
       <title>Mulkooo</title>
       <url>http://localhost:1313/images/nj_cover.jpg</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mulkooo Test Post</title>
       <link>http://localhost:1313/posts/first-post/</link>

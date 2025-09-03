@@ -2,3 +2,69 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Mulkooo
 theme: PaperMod
+
+pagination:
+ disableAliases: false
+ pagerSize: 5
+
+languages:
+  en:
+    menu:
+      main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Posts
+          url: posts/
+          weight: 2
+        - name: Archive
+          url: archives/
+          weight: 3
+        - name: Search
+          url: search/
+          weight: 4
+        - name: Tags
+          url: tags/
+          weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Mulkooo's blog - https://yulmitz.github.io/Mulkooo/"
+  author: Mulkooo
+
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowToc: true
+
+  images: ["images/nj_cover.jpg"]
+  
+  homeInfoParams:
+    Title: "PaperMod's Demo"
+    Content: >
+      👋 Welcome to demo page of Hugo's theme PaperMod!
+
+      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+
+      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
+
+      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/YulMitz"
+    - name: Discord
+      title: Join discord community
+      url: "https://discord.gg/ahpmTvhVmp"
+    - name: X
+      title: Share PaperMod on X/Twitter
+      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
+    - name: KoFi
+      title: Buy me a Ko-Fi :)
+      url: "https://ko-fi.com/adityatelange"
